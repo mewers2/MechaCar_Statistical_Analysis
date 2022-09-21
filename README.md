@@ -48,28 +48,29 @@ H~a~: The mean of the suspension coil PSI sample data does not equal the mean of
 
 The p-value of the sample t-test is 0.06, which is above the significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis, the two means are staistically similar.  The sample mean across all lots is statistically similar to the population mean of 1500.
 
-Lot t-tests:
-Lot 1:
+### Lot t-tests:
+
+#### Lot 1:
 
 H~0~: The mean of the lot 1 suspension coil PSI sample data equals the mean of the population mu = 1500
 
 H~a~: The mean of the  lot 1 suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
-![lot1_t-test]https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot1_t-test.png)
+![lot1_t-test](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot1_t-test.png)
 
 The p-value of the Lot 1 sample t-test is 1, which is above the significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis, the two means are staistically similar.  The lot 1 sample mean is 1500 and is statistically similar to the population mean of 1500.
 
-Lot 2:
+#### Lot 2:
 
 H~0~: The mean of the lot 2 suspension coil PSI sample data equals the mean of the population mu = 1500
 
 H~a~: The mean of the lot 2 suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
-![lot2_t-test]https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot2_t-test.png)
+![lot2_t-test](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot2_t-test.png)
 
 The p-value of the Lot 2 sample t-test is 0.61, which is above the significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis, the two means are staistically similar.  The lot 2 sample mean is 1500.2 and is statistically similar to the population mean of 1500.
 
-Lot 3:
+#### Lot 3:
 
 H~0~: The mean of the lot 3 suspension coil PSI sample data equals the mean of the population mu = 1500
 
