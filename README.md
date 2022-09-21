@@ -7,11 +7,11 @@ H~0~: The slope of the linear model is zero, or m = 0
 H~a~: The slope of the linear model is not zero, or m $\neq$ 0
 The linear regression model yielded the following results:
 
-![Multiple_Linear_Regression]()
+![Multiple_Linear_Regression](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/Multiple_Linear_Regression.png)
 
 The linear regression model summary yielded the following results:
 
-![Multiple_Linear_Regression_Summary]()
+![Multiple_Linear_Regression_Summary](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/Multiple_Linear_Regression_Summary.png)
 
 - Vehicle length and ground clearance have a significant impact on MPG.  The p-values for those individual variables are statistically unlikely to provide random amounts of variance to the linear model.
 
@@ -26,11 +26,11 @@ The linear regression model summary yielded the following results:
 
 The summary statistics on the Suspension Coil data provide valuable insight on the manufacturing standards of the suspension coil component for the MechaCar.  Since the design specifications dictate that the variance must not exceed 100 pounds per square inch (PSI), we will analyze the results of the summary statistics against that standard.
 
-![total]()
+![total_summary](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.png)
 
 - The total summary statistics indicate that as a whole, the manufacuring variance of the suspension coil is 62.3 and meets the design specification as 62.3 < 100.
 
-![lot]()
+![lot_summary](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.png)
 
 - The lot summary statistics break down the suspension manufacuring by lot.  According to the lot summary statistics, the manufacuring variance of the suspension coil for lot 1 is 0.98, lot 2 is 7.47, and lot 3 is 170.29.  Based on the design specification, lots 1 and 2 and meet the design specification requirement for manufacturing variance as 0.98 < 100 and 7.47 < 100.  However, lot 3 exceeds the design specification requirement for manufacturing variance as 170.29 > 100.
 
@@ -40,7 +40,7 @@ The summary statistics on the Suspension Coil data provide valuable insight on t
 H~0~: The mean of the suspension coil PSI sample data equals the mean of the population mu = 1500
 H~a~: The mean of the suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
-![one_sample_t-test]()
+![one_sample_t-test](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/One_Sample_t-test.png)
 
 The p-value of the sample t-test is 0.06, which is above the significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis, the two means are staistically similar.  The sample mean across all lots is statistically similar to the population mean of 1500.
 
@@ -49,7 +49,7 @@ Lot 1:
 H~0~: The mean of the lot 1 suspension coil PSI sample data equals the mean of the population mu = 1500
 H~a~: The mean of the  lot 1 suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
-![lot1_t-test]()
+![lot1_t-test]https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot1_t-test.png)
 
 The p-value of the Lot 1 sample t-test is 1, which is above the significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis, the two means are staistically similar.  The lot 1 sample mean is 1500 and is statistically similar to the population mean of 1500.
 
@@ -57,7 +57,7 @@ Lot 2:
 H~0~: The mean of the lot 2 suspension coil PSI sample data equals the mean of the population mu = 1500
 H~a~: The mean of the lot 2 suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
-![lot2_t-test]()
+![lot2_t-test]https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot2_t-test.png)
 
 The p-value of the Lot 2 sample t-test is 0.61, which is above the significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis, the two means are staistically similar.  The lot 2 sample mean is 1500.2 and is statistically similar to the population mean of 1500.
 
@@ -65,7 +65,7 @@ Lot 3:
 H~0~: The mean of the lot 3 suspension coil PSI sample data equals the mean of the population mu = 1500
 H~a~: The mean of the lot 3 suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
-![lot3_t-test]()
+![lot3_t-test](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot3_t-test.png)
 
 The p-value of the Lot 3 sample t-test is 0.042, which is below the significance level of 0.05.  Therefore, we have sufficient evidence to reject the null hypothesis, the two means are statistically different.  The lot 3 sample mean is 1496.14 which is statistically different from the population mean of 1500.
 
