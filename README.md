@@ -3,8 +3,11 @@
 ## Linear Regression to Predict MPG
 
 Conducted a multiple linear regression of MechaCar MPG data to analyze the independent variables' (vehicle length, vehicle weight, spoiler angle, ground clearance, and AWD) effect on MPG.
+
 H~0~: The slope of the linear model is zero, or m = 0
+
 H~a~: The slope of the linear model is not zero, or m $\neq$ 0
+
 The linear regression model yielded the following results:
 
 ![Multiple_Linear_Regression](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/Multiple_Linear_Regression.png)
@@ -38,6 +41,7 @@ The summary statistics on the Suspension Coil data provide valuable insight on t
 ## T-Tests on Suspension Coils
 
 H~0~: The mean of the suspension coil PSI sample data equals the mean of the population mu = 1500
+
 H~a~: The mean of the suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
 ![one_sample_t-test](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/One_Sample_t-test.png)
@@ -46,7 +50,9 @@ The p-value of the sample t-test is 0.06, which is above the significance level 
 
 Lot t-tests:
 Lot 1:
+
 H~0~: The mean of the lot 1 suspension coil PSI sample data equals the mean of the population mu = 1500
+
 H~a~: The mean of the  lot 1 suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
 ![lot1_t-test]https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot1_t-test.png)
@@ -54,7 +60,9 @@ H~a~: The mean of the  lot 1 suspension coil PSI sample data does not equal the 
 The p-value of the Lot 1 sample t-test is 1, which is above the significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis, the two means are staistically similar.  The lot 1 sample mean is 1500 and is statistically similar to the population mean of 1500.
 
 Lot 2:
+
 H~0~: The mean of the lot 2 suspension coil PSI sample data equals the mean of the population mu = 1500
+
 H~a~: The mean of the lot 2 suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
 ![lot2_t-test]https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot2_t-test.png)
@@ -62,7 +70,9 @@ H~a~: The mean of the lot 2 suspension coil PSI sample data does not equal the m
 The p-value of the Lot 2 sample t-test is 0.61, which is above the significance level of 0.05.  Therefore, we do not have sufficient evidence to reject the null hypothesis, the two means are staistically similar.  The lot 2 sample mean is 1500.2 and is statistically similar to the population mean of 1500.
 
 Lot 3:
+
 H~0~: The mean of the lot 3 suspension coil PSI sample data equals the mean of the population mu = 1500
+
 H~a~: The mean of the lot 3 suspension coil PSI sample data does not equal the mean of the population mu $\neq$ 1500
 
 ![lot3_t-test](https://github.com/mewers2/MechaCar_Statistical_Analysis/blob/main/Resources/lot3_t-test.png)
@@ -77,6 +87,7 @@ A study proposal to test the brake system performance of MechaCar models vs comp
 - Test the brake system performance by conducting a two-sample t-test of MechaCar brake system data against competitor data to analyze if there is a statistically significant difference in the MechaCar mean stopping distance compared to the competitors' mean stopping distance. A two-sample t-test is the perfect test to evaluate this statistical analysis because there are two separate samples (dichotomous data type: cars made by MechaCar and cars that are NOT made by MechaCar) that are being tested and compared to each other.  The stopping distance measurements are the dependent variable and is considered to be continuous data.  The null hypothesis and the alternative hypothesis are listed below:
 
 H~0~: The mean of the MechaCar stopping distance is equal to the mean of the competitors' stopping distance, or MechaCar mean = competitors' mean
+
 H~a~: The mean of the MechaCar stopping distance is not equal to the meanof the competitors' stopping distance, or MechaCar mean $\neq$ competitors' mean
 
 The data needed to conduct this statistical analysis is standardized stopping distance data for the MechaCar models and several competitors. For example, the distance required for the vehicles to come to a complete stop from 65 mph steady rate of speed. Perhaps, standardized stopping distance measurements for all vehicles tested for stopping from 30 mph, 45 mph, and 65 mph, would be best so that the test evaluates a wider range of each vehicles' braking performance.
